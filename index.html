@@ -1,0 +1,113 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Goodwin Ogbuehi</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/libs/modernizr-2.0.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<style type="text/css">
+		article.new_entry {
+			position: fixed;
+			top: 0px;
+			width: 100%;
+			background-color: ghostWhite;
+			margin: auto;
+			padding: 20px;
+			height: 100%;
+			left: 0px;
+		}
+		article.new_entry input, article.new_entry textarea {
+			border: none;
+			padding: 10px;
+			background-color: ghostWhite;
+			color: #98989F;
+			font-size: 14pt;
+		}
+	</style>
+</head>
+<body>
+	<div id="header-container">
+		<header class="wrapper">
+			<h1 id="title">Website Themes</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Career Focus</a></li>
+					<li><a href="#">Interests/Events</a></li>
+					<li><a href="#">External References</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="main" class="wrapper">
+		<aside>
+			<h3>Career Focus</h3>
+		</aside>
+		<article>
+			<header>
+				<h2>Applicaton Development</h2>
+				<p>Speak to the nature of the web, mobile, and gadgets...</p>
+			</header>
+			<h3>Technical Team Management</h3>
+				<p>This is all about Scrum.</p>	
+			<h3>Tinkering</h3>
+				<p>Arduino, Connected Car/Home, Memristor</p>
+			<footer>
+			<h3>About the author</h3>
+				<p>Who am I?</p>
+			</footer>
+		</article>
+		<article class="new_entry">
+			<form id="new_entry">
+				<input class="reference_date" name="reference_date" type="date" />
+				<input class="reference_time" name="reference_time" type="time" />
+				<br />
+				<textarea class="content_block" name="content_block" rows="30" cols="80"></textarea>
+				<br />
+				<input class="submit" type="submit" value="Submit" />
+				<input class="cancel" type="button" value="Cancel" />
+			</form>
+		</article>
+	</div>
+	<div id="footer-container">
+		<footer class="wrapper">
+			<h3>A nice footer</h3>
+		</footer>
+	</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+<script src="js/script.js"></script>
+<script src="js/KeyManager.js"></script>
+<script src="js/NewEntry.js"></script>
+<script>
+	/*
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+	*/
+	$(document).ready(function() {
+		KeyManager.init();
+		NewEntry.init();
+	});
+</script>
+
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+<![endif]-->
+
+</body>
+</html>
