@@ -11,7 +11,7 @@ var TransitionManager = {
         this.jAll = $("").add(this.jHeader).add(this.jMain).add(this.jFooter);
         
         
-        this.slideOff(this.jHeader)
+        this.slideOff(this.jAll)
     },
     slideOff:function(jObject) {
         jObject.animate({
@@ -19,13 +19,13 @@ var TransitionManager = {
         },1000,function() {
             
             var jObject = $(this);
-            jObject.hide("fast");
+            //jObject.hide("fast");
             jObject.animate({
                 left:"100%",
                 right:"-100%"
             },0,function() {
                 var jObject = $(this);
-                jObject.show("fast");
+                //jObject.show("fast");
                 jObject.animate({
                     left:"0%",
                     right:"0%"
