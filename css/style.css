@@ -221,9 +221,9 @@ body{
 }
 
 #header-container{
-	background-color:#f16529;
+	background-color:ghostwhite;
 	height:130px;
-	border-bottom:20px solid #e44d26;
+	border-bottom:20px solid lightgray;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 40px 40px -40px #AAA;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
@@ -237,7 +237,7 @@ h3{font-size: 30px;}
 
 #title{
 	font-size: 60px;
-	color:white;
+	color:grey;
 	float:left;
 }
 
@@ -254,17 +254,17 @@ nav a{
 	padding:20px;
 	color:white;
 	text-decoration:none;
-	background-color:#e44d26;
+	background-color:lightgray;
 }
 
 aside{
-	color:white;
+	color:grey;
 	padding:20px;
 	float:right;
 	height:500px;
 	width:200px;
-	background-color:#f16529;
-	border-bottom:20px solid #e44d26;
+	background-color:ghostwhite;
+	border-bottom:20px solid lightgrey;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 0px 40px -10px #AAA;
 	   -moz-box-shadow:0 0px 40px -10px #AAA;
@@ -286,9 +286,9 @@ article header{
 }
 
 #footer-container{
-	background-color:#f16529;
+	background-color:ghostwhite;
 	height:240px;
-	border-top:20px solid #e44d26;
+	border-top:20px solid lightgrey;
 	margin-top:50px;
 	-webkit-box-shadow:0 -40px 40px -40px #AAA;
 	   -moz-box-shadow:0 -40px 40px -40px #AAA;
@@ -296,7 +296,7 @@ article header{
 }
 
 #footer-container footer{
-	color:white;
+	color:grey;
 }
 
 
